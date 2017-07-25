@@ -1,0 +1,221 @@
+:focus {
+    outline: none;
+}
+
+.three-quarter-column {
+    display: inline-block;
+    width: 75%;
+}
+
+.half-column {
+    display: inline-block;
+    width: 50%;
+}
+
+.quarter-column {
+    display: inline-block;
+    width: 25%;
+}
+
+.start-input-wrapper {
+    margin-top: 2.5vh;
+}
+
+.start-input-label {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.start-input input {
+    background: transparent;
+    border: 1px solid #5c0f8b;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    width: 96%;
+    padding: 8px 2%;
+}
+
+.start-input input:focus {
+    border: 1px solid #80ba00;
+}
+
+.half-input {
+    width: 48%;
+    margin-right: 4%;
+}
+
+.half-input:last-child {
+    margin-right: 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.start-view-inner {
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 1px;
+    padding: 8vh 5vw 0 5vw;
+}
+
+.start-submit-button {
+    display: inline-block;
+    background: #5c0f8b;
+    color: rgb(255,255,255);
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.start-view-inner h1 {
+    color: rgb(255,255,255);
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 0;
+}
+
+.start-view-inner h2 {
+    color: rgb(255,255,255);
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.start-view-inner h3 {
+    color: rgba(255,255,255,0.9);
+    font-size: 18px;
+    font-size: 1.6vw;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.start-top {
+    width: 100%;
+}
+
+.start-top-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 63%;
+}
+
+.start-description {
+    margin-top: 5px;
+}
+
+.start-top-right {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 36%;
+}
+
+.start-logo img {
+    max-height: 9.7vh;
+    max-width: 17.6vw;
+}
+
+.start-middle {
+    font-size: 0;
+    white-space: nowrap;
+    margin-top: 9vh;
+}
+
+.start-bottom {
+    margin-top: 8vh;
+}
+
+.start-latest-file-wrapper {
+    margin-top: 20px;
+}
+
+.start-latest-file {
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.start-latest-file-open {
+    background: #5c0f8b;
+    border-radius: 2px;
+    color: rgb(255,255,255);
+    font-size: 8px;
+    padding: 2px 5px;
+    margin-left: 20px;
+}
+
+.start-footer {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.start-footer-inner {
+    font-size: 9px;
+    text-align: right;
+    letter-spacing: 0px;
+    padding: 5px;
+}
+
+/* HOME CONTENT */
+.home-wrapper {
+    height: 100%;
+    position: relative;
+}
+
+.introduction-container {
+    background-image: url('../images/pics/home-title-bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: fixed;
+    bottom: -4.5vh;
+}
+
+.home-logo-container {
+    background-image: url(../images/logos/home-logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 14vmin;
+    width: 40vmin;
+    position: fixed;
+    top: 19vmin;
+    left: 13vmin;
+}
+
+.home-created-for {
+    position: fixed;
+    top: 36vmin;
+    left: 14vmin;
+}
+
+.home-created-for p {
+    color: #fff;
+    margin: 1vh auto;
+}
+
+.home-created-for p:first-of-type {
+    font-family: 'JosefinSlab', Arial, sans-serif;
+    font-size: 2.75vmin;
+}
+
+.custom-company {
+    font-size: 3.25vmin;
+}
+
+.custom-date {
+    font-size: 2.5vmin;
+    font-weight: 300;
+}

@@ -1,0 +1,81 @@
+/* DETAIL CONTAINER STYLES */
+.upper-content-view {
+    background: #E6E6E6;
+    height: 84vh;
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.lower-content-view {
+    height: 12vh;
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.tour-tab-menu {
+    display: inline-block;
+    height: 100%;
+    margin-left: 16vw;
+    width: 70vw;
+    vertical-align: middle;
+}
+
+.lower-logo-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10vw;
+}
+
+.lower-logo-container img {
+    width: 100%;
+}
+
+.view-title-wrapper h2 {
+    color: #EC4623;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 9.5vmin;
+    margin: 1.5vh auto 0;
+}
+
+.view-title-desc {
+    color: #EC4623;
+    display: inline-block;
+    font-style: italic;
+}
+
+/* TOUR TAB MENU STYLES */
+.tour-tab-link {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3vw;
+    padding-top: 2.5vh;
+}
+
+.tour-tab-link p {
+    color: #fff;
+    font-family: 'JosefinSlab', Arial, sans-serif;
+    font-size: 2.25vmin;
+    font-weight: 300;
+}
+
+.active-tab p {
+    color: #00B7AD;
+}
+
+/* INNER VIEW STYLES */
+.tour-tab {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+/* OVERWRITE DISPLAY NONE */
+#challenges-tour-tab-1, #inaction-tour-tab-1, #how-tour-tab-1, #solutions-tour-tab-1,
+#splash-tour-tab-1, #resources-tour-tab-1 {
+    display: block;
+}

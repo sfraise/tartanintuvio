@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>window.$ = window.jQuery = require('./js/jquery-3.1.0.min.js');</script>
+        <script>$('head').load('views/modules/head.html');</script>
+    </head>
+    <body>
+        <div class="window-bar">
+        <input type="hidden" id="saved-file-path" value="" />
+        <div id="window-bar-filename">Tartan Intuvio</div>
+        <div class="window-bar-buttons">
+            <div id="minimize-window" class="window-bar-button">
+                <div class="window-bar-inner">
+                    <img src="./images/minimize.png" alt="Close" />
+                </div>
+            </div>
+            <div id="maximize-window" class="window-bar-button">
+                <div class="window-bar-inner">
+                    <img id="window-max-col" src="./images/maximize.png" alt="Maximize" />
+                </div>
+            </div>
+            <div id="close-window" class="window-bar-button close-window">
+                <div class="window-bar-inner">
+                    <img src="./images/close.png" alt="Close" />
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+        <div class="body-inner">
+            <div id="home_view" class="view-container"></div>
+            <div id="challenges_view" class="view-container"></div>
+            <div id="solutions_view" class="view-container"></div>
+            <div id="how_view" class="view-container"></div>
+            <div id="inaction_view" class="view-container"></div>
+            <div id="splash_view" class="view-container"></div>
+            <div id="resources_view" class="view-container"></div>
+
+            <div id="main-menu-wrapper">
+                <section class="menu-button"></section>
+                <section class="static-menu">
+                    <script>$('.static-menu').load('views/modules/menu.html');</script>
+                </section>
+                <section class="settings-menu">
+                    <section class="settings-menu-inner">
+                        <script>$('.settings-menu-inner').load('views/modules/settings-menu.html');</script>
+                    </section>
+                </section>
+            </div>
+        </div>
+
+        <section class="modal-wrapper">
+            <script>$('.modal-wrapper').load('views/modules/modal.html');</script>
+        </section>
+        <section class="secondary-modal-wrapper">
+            <script>$('.secondary-modal-wrapper').load('views/modules/secondary-modal.html');</script>
+        </section>
+    </body>
+
+    <script>
+        // REQUIRED JS FILES
+        require('./renderer.js');
+        require('./js/menus.js');
+        require('./js/navigation.js');
+        require('./js/tour-tab.js');
+        require('./js/modal.js');
+    </script>
+</html>

@@ -1,0 +1,192 @@
+/** 
+*
+*   LATO SETUP 
+*
+**/
+
+/*** DEFAULT NORMAL ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*** BOLD ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*** 100 HAIRLINE ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-HairlineItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*** 200 THIN ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-ThinItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+/*** 300 LITE ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*** 500 MEDIUM ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/*** 600 BOLD ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/*** 800 BOLD ***/
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-HeavyItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+/** 
+*
+*   JOSEFIN SETUP 
+*
+**/
+/*** DEFAULT NORMAL ***/
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('JosefinSlab/JosefinSlab-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*** BOLD ***/
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*** 100 THIN ***/
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*** 300 LITE ***/
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*** 500 SEMIBOLD ***/
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab/JosefinSlab-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}

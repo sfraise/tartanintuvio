@@ -1,0 +1,16 @@
+{
+  "name": "tartan-intuvio",
+  "productName": "Tartan_Intuvio",
+  "description": "Tartan Intuvio application",
+  "version": "0.0.1",
+  "author": "Tartan Marketing - Code Monkeys LLC",
+  "copyright": "© 2017, Tartan Marketing",
+  "homepage": "http://www.tartanmarketing.com/",
+  "license": "MIT",
+  "main": "background.js",
+  "dependencies": {
+    "electron-log": "^2.2.6",
+    "electron-updater": "^2.4.1",
+    "fs-jetpack": "^0.9.0"
+  }
+}
