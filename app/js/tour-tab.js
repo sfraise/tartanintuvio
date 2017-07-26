@@ -15,6 +15,9 @@ $(document).ready(function() {
             sectionSiblings.hide();
             sectionToOpen.fadeIn(400);
 
+            $('.quote-inner').hide();
+            $('.quote-bubble').removeClass('active-quote');
+
             if ($(this).parent().hasClass('settings-tour-tab-menu')) {
                 $('.tab-link-bottom-border').hide();
                 $(this).children('.tab-link-bottom-border').fadeIn();
@@ -27,4 +30,27 @@ $(document).ready(function() {
         }
     });
 
+    $(document).on('click', '.quote-bubble', function() {
+        var quoteContainer = $(this).siblings('.quote-inner');
+
+        if (!quoteContainer.is(":visible")) {
+            quoteContainer.fadeIn();
+            $(this).addClass('active-quote');
+        } else {
+            quoteContainer.fadeOut();
+            $(this).removeClass('active-quote');
+        }
+    });
+
+    $(document).on({
+        mouseenter: function () {
+            $(this).addClass('active-quote');
+        },
+        mouseleave: function () {
+            var quoteContainer = $(this).siblings('.quote-container');
+            if (!$('.quote-container').is(':visible')) {
+                $(this).removeClass('active-quote');
+            }
+        }
+    }, ".quote-bubble");
 });

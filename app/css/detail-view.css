@@ -34,6 +34,12 @@
     width: 100%;
 }
 
+.view-title-wrapper {
+    display: inline-block;
+    padding-top: 4vmin;
+    padding-left: 10vmin;
+}
+
 .view-title-wrapper h2 {
     color: #EC4623;
     display: inline-block;
@@ -42,10 +48,59 @@
     margin: 1.5vh auto 0;
 }
 
+.view-title-desc-wrapper {
+    display: inline-block;
+}
+
 .view-title-desc {
     color: #EC4623;
     display: inline-block;
+    font-family: 'JosefinSlab', Arial, sans-serif;
     font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-left: -4vmin;
+}
+
+.view-title-brackets {
+    background-image: url(../images/pics/title-desc-bracket.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14vmin;
+    margin-left: 3vmin;
+    margin-bottom: -4vh;
+    width: 7vmin;
+}
+
+.view-demo-slider {
+    color: #000;
+    display: inline-block;
+    height: 100%;
+    margin-left: 7vw;
+    vertical-align: top;
+}
+
+.upper-left-lines, .lower-left-lines {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.upper-left-lines {
+    background-image: url('../images/pics/top-left-bg-lines.png');
+    height: 46vmin;
+    width: 15vmin;
+    top: 0;
+    left: 0;
+}
+
+.lower-left-lines {
+    background-image: url('../images/pics/bottom-left-bg-lines.png');
+    height: 9vmin;
+    width: 20vmin;
+    bottom: 0;
+    left: 0;
 }
 
 /* TOUR TAB MENU STYLES */
@@ -74,8 +129,218 @@
     width: 100%;
 }
 
+.challenges-left {
+    display: inline-block;
+    padding-left: 11vmin;
+    width: 55%;
+}
+
+.challenges-right {
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 72vmin;
+    width: 67vmin;
+    position: absolute;
+    top: 6vmin;
+    right: -1vmin;
+}
+
+.challenges-left h2, .full-section h2 {
+    color: #EC4623;
+    font-size: 6vmin;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 1vh 0;
+}
+
+.full-section {
+    margin-top: 5vh;
+    padding-left: 11vmin;
+}
+
+.info-section {
+    width: 100%;
+}
+
+.info-row {
+    width: 100%;
+}
+
+.info-block {
+    display: inline-block;
+    margin-top: 3vh;
+    margin-right: 1%;
+    vertical-align: top;
+    width: 48%;
+}
+
+.info-block p {
+    color: #000;
+    display: inline-block;
+    font-size: 2.75vmin;
+    margin: 0 auto;
+    vertical-align: top;
+    width: 80%;
+}
+
+.info-block ul {
+    color: #000;
+    list-style: none;
+    margin-top: -2vmin;
+    margin-left: 5vmin;
+}
+
+.info-block li {
+    font-size: 2.75vmin;
+    margin-bottom: 1vh;
+}
+
+.sidebar-quote-section {
+    background-image: url(../images/pics/sidebar-border-bg-line.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin-left: -1vmin;
+    padding-top: 6vmin;
+    padding-left: 10vmin;
+}
+
+.quote-inner {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+    padding: 1vmin 0 0 9vmin;
+    position: relative;
+}
+
+.quote-bubble {
+    background-image: url(../images/icons/sidebar-quote-resting.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height: 6vmin;
+    width: 7vmin;
+    z-index: 99;
+    position: absolute;
+    top: 7vmin;
+    left: 8.5vmin;
+}
+
+.quote-desc {
+    margin: 1vh 0;
+    width: 60%;
+}
+
+.quote-inner ul {
+    list-style-type: none;
+    margin: 0.5vh 0;
+}
+
+.quote-inner li {
+    color: #000;
+    margin-left: 1vmin;
+}
+
+.quote-inner .circle-bullet {
+    margin-right: 1vmin;
+}
+
+.quote-inner .footnote {
+    font-size: 1.4vmin;
+    margin-left: 1vmin;
+}
+
+.quote-paragraph {
+    color: #000;
+    font-size: 2.75vmin;
+    line-height: 1.35;
+    margin: 1vh 0;
+    width: 65%;
+}
+
+.group-icon {
+    height: 7vmin;
+    position: absolute;
+    bottom: 0;
+    left: 20vmin;
+}
+
+.group-icon img {
+    height: 100%;
+    width: auto;
+}
+
+.active-quote {
+    background-image: url(../images/icons/sidebar-quote-rollover.png);
+}
+
+.demo-left, .demo-middle, .demo-right {
+    display: inline-block;
+    height: 25vh;
+    margin-right: 3vw;
+    width: 27vw;
+}
+
+.demo-left {
+
+}
+
+.demo-middle {
+
+}
+
+.demo-right {
+
+}
+
+.demo-wrapper {
+    background-color: #fff;
+    height: 100%;
+    padding: 2vh 2vw 2vh;
+}
+
+.demo-wrapper img {
+    height: auto;
+    margin-top: 1.5vh;
+    width: 100%;
+}
+
+/** MANUAL BACKGROUNDS **/
+#challenges-tour-tab-1 .challenges-right {
+    background-image: url('../images/pics/engagement-sidebar-bg.png');
+}
+
+#challenges-tour-tab-2 .challenges-right {
+    background-image: url('../images/pics/alignment-sidebar-bg.png');
+}
+
+#challenges-tour-tab-3 .challenges-right {
+    background-image: url('../images/pics/buyin-sidebar-bg.png');
+}
+
+#challenges-tour-tab-1 .quote-inner {
+    background-image: url(../images/pics/engagement-sidebar-bubble.png);
+    height: 50%;
+}
+
+#challenges-tour-tab-2 .quote-inner {
+    background-image: url(../images/pics/alignment-sidebar-bubble.png);
+    height: 40%;
+}
+
+#challenges-tour-tab-3 .quote-inner {
+    background-image: url(../images/pics/buyin-sidebar-bubble.png);
+    height: 34%;
+}
+
+
 /* OVERWRITE DISPLAY NONE */
 #challenges-tour-tab-1, #inaction-tour-tab-1, #how-tour-tab-1, #solutions-tour-tab-1,
 #splash-tour-tab-1, #resources-tour-tab-1 {
     display: block;
 }
+
