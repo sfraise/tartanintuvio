@@ -1,1 +1,1 @@
-US Bank Intuvio Desktop Application
+Tartan Marketing Intuvio Desktop Application
