@@ -38,20 +38,20 @@
       "buildResources": "resources"
     },
     "fileAssociations": {
-      "ext": "usbank",
-      "name": "usbank"
+      "ext": "tartan",
+      "name": "tartan"
     },
     "publish": [
       {
         "provider": "github",
         "owner": "sfraise",
-        "repo": "tartan"
+        "repo": "tartanintuvio"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sfraise/tartan.git"
+    "url": "https://github.com/sfraise/tartanintuvio.git"
   },
   "scripts": {
     "postinstall": "install-app-deps",
@@ -79,7 +79,7 @@
     "electron-builder": "^18.3.5",
     "electron-mocha": "^3.0.0",
     "fs-jetpack": "^0.9.0",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-batch": "^1.0.5",
     "gulp-less": "^3.0.3",
     "gulp-plumber": "^1.1.0",
